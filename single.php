@@ -32,7 +32,6 @@
 			<?php the_content(); ?>
 
 			<?php endwhile; ?>
-			<?php comments_template(); ?>
 
 		</article>
 		<!-- end .post -->
@@ -41,6 +40,6 @@
 		</section>
 		<!-- end main -->
 
-<?php get_sidebar(); ?>
+
 <div class="clear"></div>
 <?php get_footer(); ?>
